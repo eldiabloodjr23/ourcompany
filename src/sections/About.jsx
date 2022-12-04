@@ -27,11 +27,10 @@ const About = () => (
           moderní technologie
         </span>{' '}
         Vyvíjíme úspěšné{' '}
-        <span className="font-extrabold text-green-100">Desktop i Mobilní aplikace</span> pro Vás na míru.
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        <span className="font-extrabold text-green-100">moderní webové aplikace</span> pro Vás na míru.
+        Našim cílem je dělat rychlé a  
+        {' '}
+        <span className="font-extrabold text-white">úspěšné aplikace</span> pro spokojenost našich zákazníků.
       </motion.p>
 
       <motion.img

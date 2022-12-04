@@ -31,14 +31,14 @@ export const exploreWorlds = [
   
   export const newFeatures = [
     {
-      imgUrl: '/vrpano.svg',
-      title: 'A new world',
+      imgUrl: 'https://i.ibb.co/r5N3MmY/commitment-icon.png',
+      title: 'Telefonní podpora',
       subtitle:
-          'we have the latest update with new world for you to try never mind',
+          'Všem klientům nabízíme online podporu a tak pokud si nevíte rady náš tým vám vždy pomůže',
     },
     {
-      imgUrl: '/headset.svg',
-      title: 'More realistic',
+      imgUrl: 'https://i.ibb.co/mFWJR5M/customer-service-icon.png',
+      title: 'Online podpora',
       subtitle:
           'In the latest update, your eyes are narrow, making the world more realistic than ever',
     },
@@ -46,40 +46,37 @@ export const exploreWorlds = [
   
   export const insights = [
     {
-      imgUrl: '/planet-06.png',
-      title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+      imgUrl: 'https://i.ibb.co/F8SqvZ4/insta.webp',
+      title: 'Sledujte nás na instagramu',
       subtitle:
-          'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+          '',
     },
     {
-      imgUrl: '/planet-07.png',
-      title: '7 tips to easily master the madness of the Metaverse',
+      imgUrl: 'https://i.ibb.co/VMsnQs4/Facebook-logo-square-png.webp',
+      title: 'Sledujte nás na facebooku',
       subtitle:
-          'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+          '',
     },
     {
-      imgUrl: '/planet-08.png',
-      title: 'With one platform you can explore the whole world virtually',
+      imgUrl: 'https://i.ibb.co/BPNDFsw/unnamed.png',
+      title: 'Sledujte nás na LinkedIn',
       subtitle:
-          'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+          '',
     },
   ];
   
   export const socials = [
-    {
-      name: 'twitter',
-      url: '/twitter.svg',
-    },
+   
     {
       name: 'linkedin',
-      url: '/linkedin.svg',
+      url: 'https://cdn-icons-png.flaticon.com/512/3536/3536505.png',
     },
     {
       name: 'instagram',
-      url: '/instagram.svg',
+      url: 'https://cdn-icons-png.flaticon.com/512/174/174855.png',
     },
     {
       name: 'facebook',
-      url: '/facebook.svg',
+      url: 'https://cdn-icons-png.flaticon.com/512/733/733547.png',
     },
   ];
