@@ -13,6 +13,7 @@ import insta from '../assets/insta.webp'
 import moneybag from '../assets/moneybag.png'
 import usd from '../assets/usd.png'
 import bitcoin from '../assets/bitcoin.png'
+import spolu from '../assets/spolu.png'
 
 export default {
  profile,
@@ -29,7 +30,8 @@ export default {
  insta,
  moneybag,
  bitcoin,
- usd
+ usd,
+ spolu
 
 
 

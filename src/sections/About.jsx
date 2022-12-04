@@ -28,7 +28,7 @@ const About = () => (
         </span>{' '}
         Vyvíjíme úspěšné{' '}
         <span className="font-extrabold text-green-100">moderní webové aplikace</span> pro Vás na míru.
-        Našim cílem je dělat rychlé a  
+        Našim cílem je dělat    
         {' '}
         <span className="font-extrabold text-white">úspěšné aplikace</span> pro spokojenost našich zákazníků.
       </motion.p>

@@ -20,9 +20,9 @@ const App = () => {
     
     </div>
     <World />
-    <Feedback />
+    
     <div className="relative">
-    <Insights />
+    <Feedback />
       <div className="gradient-04 z-0" />
     <Contact />
     </div>
@@ -36,7 +36,7 @@ const App = () => {
   expires={150}
 >
   Tato webová stránka využívá cookies.{" "}
-  <span style={{ fontSize: "10px" }}>This bit of text is smaller :O</span>
+  <span style={{ fontSize: "10px" }}></span>
 </CookieConsent>
   </div>
   )
