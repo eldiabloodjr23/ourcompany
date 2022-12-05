@@ -22,15 +22,15 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-white"
       >
-        <span className="font-extrabold text-white"></span> Jsme tým  zkušených developerů, designéru a expertů v oboru s nadšením pro{' '}
+        <span className="font-extrabold text-white"></span> Jsme tým  zkušených developerů, designérů a expertů v oboru s nadšením pro{' '}
         <span className="font-extrabold text-white">
           moderní technologie
         </span>{' '}
         Vyvíjíme úspěšné{' '}
-        <span className="font-extrabold text-green-100">moderní webové aplikace</span> pro Vás na míru.
-        Našim cílem je dělat    
+        <span className="font-extrabold text-green-100">moderní webové aplikace</span> pro vás na míru.
+        Naším cílem je dělat    
         {' '}
-        <span className="font-extrabold text-white">úspěšné aplikace</span> pro spokojenost našich zákazníků.
+        <span className="font-extrabold text-white"> kvalitní a úspěšné aplikace</span> pro spokojenost našich zákazníků.
       </motion.p>
 
       <motion.img
