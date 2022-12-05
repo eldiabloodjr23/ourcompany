@@ -23,7 +23,7 @@ const Hero = () => (
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center"
         >
-          <h1 className={styles.heroHeading}>-digitální přítel pro vaše podnikání</h1>
+          <h1 className={styles.heroHeading}>- digitální přítel pro vaše podnikání</h1>
           
 
           
