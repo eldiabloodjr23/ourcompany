@@ -40,7 +40,7 @@ const Hero = () => (
         <img
           src={images.cover}
           alt="hero_cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative hover:transform transition duration-500 hover:scale-110"
+          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative "
         />
 
         <a href="#explore">
