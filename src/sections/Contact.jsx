@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import SweetAlert2 from 'react-sweetalert2';
+
 
 const Contact = () => {
  
