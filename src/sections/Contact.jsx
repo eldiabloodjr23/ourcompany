@@ -19,8 +19,7 @@ const Contact = () => {
       });
   };
 
-
-
+ 
 
 
   return (
@@ -90,7 +89,7 @@ const Contact = () => {
             <p className='text-white' >Zpráva</p>
             <textarea name="message" className="w-full mt-2.5 px-5 py-3 rounded border border-gray-200 outline-none focus:ring-1 focus:ring-purple-600 focus:border-purple-600 focus:text-black" required defaultValue={""} />
           </label>
-          <button onClick={notify} className="w-full px-5 py-3 rounded font-medium bg-purple-500 text-white focus:outline-none hover:transform transition duration-500 hover:scale-105" type="submit"  value="Send" >Odeslat</button>
+          <button onClick={{notify}}  className="w-full px-5 py-3 rounded font-medium bg-purple-500 text-white focus:outline-none hover:transform transition duration-500 hover:scale-105" type="submit"  value="Send" >Odeslat</button>
           <ToastContainer  position="bottom-center" limit={1} pauseOnHover/>
         </form>
       </div>

@@ -2,7 +2,7 @@ export const exploreWorlds = [
     {
       id: 'world-1',
       imgUrl: 'https://i.ibb.co/Fhrwshp/webdev.jpg',
-      title: 'Webové stránky a aplikace',
+      title: 'Webové aplikace',
     },
     {
       id: 'world-2',
@@ -34,13 +34,13 @@ export const exploreWorlds = [
       imgUrl: 'https://i.ibb.co/r5N3MmY/commitment-icon.png',
       title: 'Telefonní podpora',
       subtitle:
-          'Nevíte si rady? Potřebujete pomoc? Kontaktujte nás na telefonní číslo 607 706 102 Náš tým je tu pro Vás.',
+          '+420 607 706 102',
     },
     {
       imgUrl: 'https://i.ibb.co/mFWJR5M/customer-service-icon.png',
       title: 'Online podpora',
       subtitle:
-          'Nevíte si rady? Potřebujete pomoc? Kontaktujte nás na email podpora@weinvent.cz náš Tým je tu pro Vás.',
+          'podpora@weinvent.cz',
     },
   ];
   
