@@ -1,11 +1,12 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
  
   const form = useRef();
-
+  const notify = () => toast("✅   Děkujeme za zprávu v nejbližší době se vám ozveme ");
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -88,8 +89,8 @@ const Contact = () => {
             <p className='text-white' >Zpráva</p>
             <textarea name="message" className="w-full mt-2.5 px-5 py-3 rounded border border-gray-200 outline-none focus:ring-1 focus:ring-purple-600 focus:border-purple-600 focus:text-black" required defaultValue={""} />
           </label>
-          <button className="w-full px-5 py-3 rounded font-medium bg-purple-500 text-white focus:outline-none" type="submit" value="Send" >Odeslat</button>
-            
+          <button onClick={notify} className="w-full px-5 py-3 rounded font-medium bg-purple-500 text-white focus:outline-none" type="submit" value="Send" >Odeslat</button>
+          <ToastContainer  position="bottom-center" limit={1} pauseOnHover/>
         </form>
       </div>
     </div>
