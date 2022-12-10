@@ -6,6 +6,6 @@
 
 
 body {
-  
-    
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(9, 8, 15) 0%, rgb(16, 15, 31) 50%, rgba(2,0,34,1) 100%);;
 }
