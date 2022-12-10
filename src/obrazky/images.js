@@ -31,7 +31,8 @@ export default {
  moneybag,
  bitcoin,
  usd,
- spolu
+ spolu,
+
 
 
 

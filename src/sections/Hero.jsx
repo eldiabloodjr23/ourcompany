@@ -40,7 +40,7 @@ const Hero = () => (
         <img
           src={images.cover}
           alt="hero_cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative hover:transform transition duration-500 hover:scale-110"
         />
 
         <a href="#explore">
@@ -48,7 +48,7 @@ const Hero = () => (
             <img
               src={images.stamp}
               alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
+              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain hover:transform transition duration-1000 hover:scale-110"
             />
           </div>
         </a>

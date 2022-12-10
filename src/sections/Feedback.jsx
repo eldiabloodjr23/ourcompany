@@ -52,7 +52,7 @@ const Feedback = () => (
           <img
             src={images.stamp}
             alt="stamp"
-            className="w-[155px] h-[155px] object-contain"
+            className="w-[155px] h-[155px] object-contain hover:transform transition duration-1000 hover:scale-110"
           />
           </a>
         </motion.div>
