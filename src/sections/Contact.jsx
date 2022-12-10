@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com'
 import SweetAlert2 from 'react-sweetalert2';
 
 const Contact = () => {
@@ -95,7 +95,7 @@ const Contact = () => {
                     text: 'V nejbližší době vás budeme kontaktovat ! ',
                 });
             }}>Odeslat</button>
-             <SweetAlert2 {...swalProps} />
+             <SweetAlert2 />
         </form>
       </div>
     </div>
