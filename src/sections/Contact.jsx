@@ -1,9 +1,9 @@
-import React, { useRef, useState } from 'react';
-import emailjs from 'emailjs-com'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import SweetAlert2 from 'react-sweetalert2';
 
 const Contact = () => {
-  const [swalProps, setSwalProps] = useState({});
+ 
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -88,14 +88,8 @@ const Contact = () => {
             <p className='text-white' >Zpráva</p>
             <textarea name="message" className="w-full mt-2.5 px-5 py-3 rounded border border-gray-200 outline-none focus:ring-1 focus:ring-purple-600 focus:border-purple-600 focus:text-black" required defaultValue={""} />
           </label>
-          <button className="w-full px-5 py-3 rounded font-medium bg-purple-500 text-white focus:outline-none" type="submit" value="Send" onClick={() => {
-                setSwalProps({
-                    show: true,
-                    title: 'Děkujeme za vaši zprávu',
-                    text: 'V nejbližší době vás budeme kontaktovat ! ',
-                });
-            }}>Odeslat</button>
-             <SweetAlert2 />
+          <button className="w-full px-5 py-3 rounded font-medium bg-purple-500 text-white focus:outline-none" type="submit" value="Send" >Odeslat</button>
+            
         </form>
       </div>
     </div>
