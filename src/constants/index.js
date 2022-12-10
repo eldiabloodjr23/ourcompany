@@ -34,13 +34,13 @@ export const exploreWorlds = [
       imgUrl: 'https://i.ibb.co/r5N3MmY/commitment-icon.png',
       title: 'Telefonní podpora',
       subtitle:
-          'Všem klientům nabízíme online podporu a tak pokud si nevíte rady náš tým vám vždy pomůže',
+          'Nevíte si rady? Potřebujete pomoc? Kontaktujte nás na telefonní číslo 607 706 102 Náš tým je tu pro Vás.',
     },
     {
       imgUrl: 'https://i.ibb.co/mFWJR5M/customer-service-icon.png',
       title: 'Online podpora',
       subtitle:
-          'In the latest update, your eyes are narrow, making the world more realistic than ever',
+          'Nevíte si rady? Potřebujete pomoc? Kontaktujte nás na email podpora@weinvent.cz náš Tým je tu pro Vás.',
     },
   ];
   
